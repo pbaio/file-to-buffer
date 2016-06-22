@@ -1,0 +1,35 @@
+{
+  "name": "file-to-buffer",
+  "version": "1.0.0",
+  "description": "takes a stream.Readable and returns a Buffer Object of its data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbaio/file-to-buffer.git"
+  },
+  "keywords": [
+    "stream.Readable",
+    "buffer",
+    "promises",
+    "bluebird",
+    "streams",
+    "file"
+  ],
+  "author": "Peter Baio <baio.peter@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbaio/file-to-buffer/issues"
+  },
+  "homepage": "https://github.com/pbaio/file-to-buffer#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
+}
